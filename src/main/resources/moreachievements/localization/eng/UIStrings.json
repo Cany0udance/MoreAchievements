@@ -1,0 +1,140 @@
+{
+  "${modID}:SHELL_SHOCK": {
+    "TEXT": [
+      "Shell Shock",
+      "Stun a Shelled Parasite."
+    ]
+  },
+  "${modID}:MERCY": {
+    "TEXT": [
+      "Mercy",
+      "Spare both of the Cultists in the Awakened One fight."
+    ]
+  },
+  "${modID}:THE_SPIRE_SLEEPS": {
+    "TEXT": [
+      "The Spire Sleeps",
+      "Complete the Ending on Ascension Level 20."
+    ]
+  },
+  "${modID}:KEYMASTER": {
+    "TEXT": [
+      "Keymaster",
+      "Complete the Ending after having obtained all 3 Keys in Exordium."
+    ]
+  },
+  "${modID}:COLLECTIONIST": {
+    "TEXT": [
+      "Collectionist",
+      "Beat the game with a 50 card deck or larger."
+    ]
+  },
+  "${modID}:BURDENS": {
+    "TEXT": [
+      "Burdens",
+      "Beat the game with a deck containing at least 5 Curses."
+    ]
+  },
+  "${modID}:BLOODTHIRSTY": {
+    "TEXT": [
+      "Bloodthirsty",
+      "Beat the game after having defeated at least 12 Elites."
+    ]
+  },
+  "${modID}:ENERGETIC": {
+    "TEXT": [
+      "Energetic",
+      "Beat the game while having a max Energy count of 6."
+    ]
+  },
+  "${modID}:LIVING_ON_THE_EDGE": {
+    "TEXT": [
+      "Living On The Edge",
+      "Beat the game with at most 24 max HP."
+    ]
+  },
+  "${modID}:SHOWOFF": {
+    "TEXT": [
+      "Showoff",
+      "Beat the game after having defeated 3 Burning Elites."
+    ]
+  },
+  "${modID}:NEW_PERSPECTIVES": {
+    "TEXT": [
+      "New Perspectives",
+      "Beat the game with a deck containing at least 3 cards of each color."
+    ]
+  },
+  "${modID}:SATED": {
+    "TEXT": [
+      "Sated",
+      "Beat the game while having at least 150 max HP."
+    ]
+  },
+  "${modID}:WRATHFUL": {
+    "TEXT": [
+      "Wrathful",
+      "As The Watcher, beat the game without ever having entered Calm."
+    ]
+  },
+  "${modID}:ANGER_MANAGEMENT": {
+    "TEXT": [
+      "Anger Management",
+      "As The Watcher, beat the game without ever having entered Wrath."
+    ]
+  },
+  "${modID}:ROLE_REVERSAL": {
+    "TEXT": [
+      "Role Reversal",
+      "Defeat an Exploder using The Bomb."
+    ]
+  },
+  "${modID}:NEGATIVE_SYNERGY": {
+    "TEXT": [
+      "Negative Synergy",
+      "Beat the game while having both Runic Pyramid and Snecko Eye at the same time."
+    ]
+  },
+  "${modID}:OVERTHROWN": {
+    "TEXT": [
+      "Overthrown",
+      "Defeat the Champ with a Signature Move."
+    ]
+  },
+  "${modID}:POWERLESS": {
+    "TEXT": [
+      "Powerless",
+      "Beat the game with a deck containing no Powers."
+    ]
+  },
+  "${modID}:WORKAROUND": {
+    "TEXT": [
+      "Workaround",
+      "Beat the game with a deck containing no Attacks."
+    ]
+  },
+  "${modID}:PROTEST": {
+    "TEXT": [
+      "Protest",
+      "Beat the game with a deck where the only Attacks are ones that contain \"Strike\"."
+    ]
+  },
+  "${modID}:BLOOMED": {
+    "TEXT": [
+      "Bloomed",
+      "Beat the game while having Mark of the Bloom."
+    ]
+  },
+  "${modID}:CLASS_DISMISSED": {
+    "TEXT": [
+      "Class Dismissed",
+      "Defeat Book of Stabbing with a Lesson Learned."
+    ]
+  },
+  "${modID}:ENCORE": {
+    "TEXT": [
+      "Encore",
+      "Play Grand Finale twice in a single turn."
+    ]
+  }
+}

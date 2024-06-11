@@ -1,0 +1,327 @@
+MoreAchievements.png
+size: 1280,1280
+format: RGB888
+filter: Linear,Linear
+repeat: none
+locked/SHELL_SHOCK
+ rotate: false
+ xy: 0, 0
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/SHELL_SHOCK
+ rotate: false
+ xy: 160, 0
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/MERCY
+ rotate: false
+ xy: 320, 0
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/MERCY
+ rotate: false
+ xy: 480, 0
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/THE_SPIRE_SLEEPS
+ rotate: false
+ xy: 640, 0
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/THE_SPIRE_SLEEPS
+ rotate: false
+ xy: 800, 0
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/COLLECTIONIST
+ rotate: false
+ xy: 960, 0
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/COLLECTIONIST
+ rotate: false
+ xy: 1120, 0
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/BURDENS
+ rotate: false
+ xy: 0, 160
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/BURDENS
+ rotate: false
+ xy: 160, 160
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/BLOODTHIRSTY
+ rotate: false
+ xy: 320, 160
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/BLOODTHIRSTY
+ rotate: false
+ xy: 480, 160
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/ENERGETIC
+ rotate: false
+ xy: 640, 160
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/ENERGETIC
+ rotate: false
+ xy: 800, 160
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/LIVING_ON_THE_EDGE
+ rotate: false
+ xy: 960, 160
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/LIVING_ON_THE_EDGE
+ rotate: false
+ xy: 1120, 160
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/NEW_PERSPECTIVES
+ rotate: false
+ xy: 320, 320
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/NEW_PERSPECTIVES
+ rotate: false
+ xy: 480, 320
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/SATED
+ rotate: false
+ xy: 640, 320
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/SATED
+ rotate: false
+ xy: 800, 320
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/WRATHFUL
+ rotate: false
+ xy: 960, 320
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/WRATHFUL
+ rotate: false
+ xy: 1120, 320
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/ANGER_MANAGEMENT
+ rotate: false
+ xy: 0, 480
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/ANGER_MANAGEMENT
+ rotate: false
+ xy: 160, 480
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/ROLE_REVERSAL
+ rotate: false
+ xy: 320, 480
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/ROLE_REVERSAL
+ rotate: false
+ xy: 480, 480
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/NEGATIVE_SYNERGY
+ rotate: false
+ xy: 640, 480
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/NEGATIVE_SYNERGY
+ rotate: false
+ xy: 800, 480
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/OVERTHROWN
+ rotate: false
+ xy: 960, 480
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/OVERTHROWN
+ rotate: false
+ xy: 1120, 480
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/SHOWOFF
+ rotate: false
+ xy: 0, 640
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/SHOWOFF
+ rotate: false
+ xy: 160, 640
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/POWERLESS
+ rotate: false
+ xy: 320, 640
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/POWERLESS
+ rotate: false
+ xy: 480, 640
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/WORKAROUND
+ rotate: false
+ xy: 640, 640
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/WORKAROUND
+ rotate: false
+ xy: 800, 640
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/PROTEST
+ rotate: false
+ xy: 960, 640
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/PROTEST
+ rotate: false
+ xy: 1120, 640
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/BLOOMED
+ rotate: false
+ xy: 0, 800
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/BLOOMED
+ rotate: false
+ xy: 160, 800
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/CLASS_DISMISSED
+ rotate: false
+ xy: 320, 800
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/CLASS_DISMISSED
+ rotate: false
+ xy: 480, 800
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/ENCORE
+ rotate: false
+ xy: 640, 800
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/ENCORE
+ rotate: false
+ xy: 800, 800
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/KEYMASTER
+ rotate: false
+ xy: 960, 800
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/KEYMASTER
+ rotate: false
+ xy: 1120, 800
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
