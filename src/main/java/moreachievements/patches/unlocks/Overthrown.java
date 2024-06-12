@@ -1,6 +1,5 @@
 package moreachievements.patches.unlocks;
 
-import basemod.BaseMod;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePrefixPatch;
 import com.megacrit.cardcrawl.cards.purple.SignatureMove;
@@ -17,16 +16,10 @@ public class Overthrown {
     @SpirePrefixPatch
     public static void Prefix(SignatureMove instance, AbstractPlayer p, AbstractMonster m) {
         if (m != null && m.id.equals(Champ.ID)) {
-            BaseMod.logger.info("Champ is the target of Signature Move");
             int damage = instance.damage;
-            if (damage >= m.currentHealth) {
+            if (damage >= m.currentHealth + m.currentBlock) {
                 MoreAchievementUnlocker.unlockAchievement("OVERTHROWN");
-                BaseMod.logger.info("Achievement unlocked: OVERTHROWN");
-            } else {
-                BaseMod.logger.info("Signature Move damage is not lethal");
             }
-        } else {
-            BaseMod.logger.info("Champ is not the target of Signature Move");
         }
     }
 }

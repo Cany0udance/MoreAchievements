@@ -1,6 +1,5 @@
 package moreachievements.util;
 
-import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import moreachievements.MoreAchievements;
 
@@ -10,7 +9,6 @@ public class MoreAchievementUnlocker {
     public static void unlockAchievement(String key) {
         String fullKey = MoreAchievements.makeID(key);
         if (!Settings.isShowBuild && Settings.isStandardRun()) {
-            CardCrawlGame.publisherIntegration.unlockAchievement(fullKey);
             if (!achievementPref.getBoolean(fullKey, false)) {
                 achievementPref.putBoolean(fullKey, true);
             }
