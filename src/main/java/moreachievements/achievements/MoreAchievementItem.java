@@ -4,7 +4,11 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.TipHelper;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
 import com.megacrit.cardcrawl.screens.stats.AchievementItem;
+
+import java.lang.reflect.Field;
 
 public class MoreAchievementItem extends AchievementItem {
     private TextureAtlas.AtlasRegion unlockedImg;
@@ -42,5 +46,26 @@ public class MoreAchievementItem extends AchievementItem {
 
         this.hb.move(x, y);
         this.hb.render(sb);
+    }
+
+    public void update() {
+        if (this.hb != null) {
+            this.hb.update();
+            if (this.hb.hovered) {
+                try {
+                    Field titleField = AchievementItem.class.getDeclaredField("title");
+                    titleField.setAccessible(true);
+                    String title = (String) titleField.get(this);
+
+                    Field descField = AchievementItem.class.getDeclaredField("desc");
+                    descField.setAccessible(true);
+                    String desc = (String) descField.get(this);
+
+                    TipHelper.renderGenericTip((float) InputHelper.mX + 100.0F * Settings.scale, (float) InputHelper.mY, title, desc);
+                } catch (NoSuchFieldException | IllegalAccessException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 }

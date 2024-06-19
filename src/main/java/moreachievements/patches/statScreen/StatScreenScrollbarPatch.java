@@ -1,3 +1,6 @@
+
+/*
+
 package moreachievements.patches.statScreen;
 
 import basemod.ReflectionHacks;
@@ -22,3 +25,5 @@ public class StatScreenScrollbarPatch {
         ReflectionHacks.setPrivate(__instance, StatsScreen.class, "scrollUpperBound", currentUpperBound + (float)(36 * NEW_ACHIEVEMENTS) * Settings.scale);
     }
 }
+
+ */

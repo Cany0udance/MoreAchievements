@@ -1,3 +1,6 @@
+
+/*
+
 package moreachievements.patches.statScreen;
 
 import com.evacipated.cardcrawl.modthespire.lib.ByRef;
@@ -24,3 +27,5 @@ public class StatScreenOffsetPatch {
         renderY[0] -= (float)(36 * NEW_ACHIEVEMENTS) * Settings.scale;
     }
 }
+
+ */

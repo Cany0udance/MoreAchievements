@@ -1,3 +1,6 @@
+
+/*
+
 package moreachievements.patches.statScreen;
 
 import com.badlogic.gdx.Gdx;
@@ -54,3 +57,5 @@ public class AchievementGridConstructorPatch {
         instance.items.add(new MoreAchievementItem(name, description, fullId, isHidden, AchievementImageUnlocked, AchievementImageLocked));
     }
 }
+
+ */
