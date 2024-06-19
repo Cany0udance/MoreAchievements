@@ -6,11 +6,10 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.localization.UIStrings;
-import com.megacrit.cardcrawl.screens.stats.AchievementItem;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import moreachievements.MoreAchievements;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class MoreAchievementGrid {
     public ArrayList<MoreAchievementItem> items = new ArrayList<>();
@@ -54,6 +53,15 @@ public class MoreAchievementGrid {
         items.add(new MoreAchievementItem(name, description, fullId, isHidden, AchievementImageUnlocked, AchievementImageLocked));
     }
 
+    public void updateAchievementStatus() {
+        for (MoreAchievementItem item : items) {
+            String achievementKey = item.getKey();
+            boolean isUnlocked = UnlockTracker.isAchievementUnlocked(achievementKey);
+            item.isUnlocked = isUnlocked;
+            item.reloadImg();
+        }
+    }
+
     public void render(SpriteBatch sb, float renderY) {
         for (int i = 0; i < items.size(); ++i) {
             items.get(i).render(sb, 560.0F * Settings.scale + (i % ITEMS_PER_ROW) * SPACING, renderY - (i / ITEMS_PER_ROW) * SPACING + 680.0F * Settings.yScale);
@@ -66,8 +74,10 @@ public class MoreAchievementGrid {
     }
 
     public void update() {
+        updateAchievementStatus();
         for (MoreAchievementItem item : items) {
             item.update();
         }
     }
+
 }

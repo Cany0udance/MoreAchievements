@@ -14,9 +14,6 @@ public class RenderStatScreenPatch {
     public static void Insert(StatsScreen __instance, SpriteBatch sb, @ByRef float[] renderY) {
         renderY[0] += 50.0F * Settings.scale;
 
-        // Set the color before rendering the header
-        sb.setColor(Settings.CREAM_COLOR);
-
         // Render the More Achievements section
         StatsScreen.renderHeader(sb, "#yMore #yAchievements", 300.0F * Settings.scale, renderY[0]);
         StatsScreenPatch.getMoreAchievements().render(sb, renderY[0]);

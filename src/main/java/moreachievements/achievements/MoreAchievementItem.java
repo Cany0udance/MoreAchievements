@@ -24,6 +24,10 @@ public class MoreAchievementItem extends AchievementItem {
         this.currentImg = lockedImage;
     }
 
+    public String getKey() {
+        return key;
+    }
+
     public void reloadImg() {
         if (this.isUnlocked) {
             this.unlockedImg = atlas.findRegion(this.unlockedImg.name);
