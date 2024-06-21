@@ -17,8 +17,8 @@ public class RenderStatScreenPatch {
         // Render the More Achievements section
         StatsScreen.renderHeader(sb, "#yMore #yAchievements", 300.0F * Settings.scale, renderY[0]);
         StatsScreenPatch.getMoreAchievements().render(sb, renderY[0]);
-        renderY[0] -= StatsScreenPatch.getMoreAchievements().calculateHeight(); // Add the height of the More Achievements grid
-        renderY[0] -= 100.0F * Settings.scale; // Add some additional spacing after the More Achievements section
+        renderY[0] -= StatsScreenPatch.getMoreAchievements().calculateHeight();
+        renderY[0] -= 100.0F * Settings.scale;
     }
 
     private static class Locator extends SpireInsertLocator {

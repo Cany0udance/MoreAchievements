@@ -1,5 +1,6 @@
 package moreachievements.util;
 
+import basemod.BaseMod;
 import com.megacrit.cardcrawl.core.Settings;
 import moreachievements.MoreAchievements;
 
@@ -11,6 +12,7 @@ public class MoreAchievementUnlocker {
         if (!Settings.isShowBuild && Settings.isStandardRun()) {
             if (!achievementPref.getBoolean(fullKey, false)) {
                 achievementPref.putBoolean(fullKey, true);
+                BaseMod.logger.info("achievement unlocked:" + fullKey);
             }
 
             achievementPref.flush();
