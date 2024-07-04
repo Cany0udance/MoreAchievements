@@ -1,4 +1,9 @@
 {
+  "${modID}:AchievementGrid": {
+    "TEXT": [
+      "#yMore #yAchievements"
+    ]
+  },
   "${modID}:SHELL_SHOCK": {
     "TEXT": [
       "Shell Shock",
