@@ -325,3 +325,31 @@ unlocked/KEYMASTER
  orig: 160, 160
  offset: 0, 0
  index: -1
+locked/ONE_FOR_ALL
+ rotate: false
+ xy: 0, 960
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/ONE_FOR_ALL
+ rotate: false
+ xy: 160, 960
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+locked/UNDIVIDED
+ rotate: false
+ xy: 320, 960
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1
+unlocked/UNDIVIDED
+ rotate: false
+ xy: 480, 960
+ size: 160, 160
+ orig: 160, 160
+ offset: 0, 0
+ index: -1

@@ -24,10 +24,10 @@
 
     <!-- This information will be displayed in ModTheSpire, the modded launcher. -->
     <name>More Achievements</name>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
     <!-- Avoid using \ in this description, as they can cause the description to fail to load. -->
     <!-- If you really want to use them, you'll need to "escape" them by putting another one in front, like \\ -->
-    <description>Adds 20+ new achievements to the game.</description>
+    <description>Adds 25 new achievements to the game.</description>
 
     <!--You shouldn't need to change anything below this point, but feel free to look at it.-->
     <!--You'll get a warning regarding these when you package your mod, but don't worry, it's just set up like this for convenience.-->

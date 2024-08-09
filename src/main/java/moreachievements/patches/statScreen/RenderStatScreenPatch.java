@@ -7,6 +7,7 @@ import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.localization.UIStrings;
 import com.megacrit.cardcrawl.screens.stats.StatsScreen;
 import javassist.CtBehavior;
+import moreachievements.MoreAchievements;
 
 import java.util.Iterator;
 
@@ -24,8 +25,8 @@ public class RenderStatScreenPatch {
 
         // Render the More Achievements section
         StatsScreen.renderHeader(sb, uiStrings.TEXT[0], 300.0F * Settings.scale, renderY[0]);
-        StatsScreenPatch.getMoreAchievements().render(sb, renderY[0]);
-        renderY[0] -= StatsScreenPatch.getMoreAchievements().calculateHeight();
+        MoreAchievements.moreAchievementGrid.render(sb, renderY[0]);
+        renderY[0] -= MoreAchievements.moreAchievementGrid.calculateHeight();
         renderY[0] -= 100.0F * Settings.scale;
     }
 

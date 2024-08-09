@@ -141,5 +141,17 @@
       "Encore",
       "Play Grand Finale twice in a single turn."
     ]
+  },
+  "${modID}:ONE_FOR_ALL": {
+    "TEXT": [
+      "One For All",
+      "Retrieve 5 cards from your discard pile with a single use of All For One."
+    ]
+  },
+  "${modID}:UNDIVIDED": {
+    "TEXT": [
+      "Undivided",
+      "Defeat the Slime Boss before it Splits."
+    ]
   }
 }

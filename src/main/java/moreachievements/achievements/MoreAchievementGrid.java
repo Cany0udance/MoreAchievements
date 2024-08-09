@@ -18,39 +18,41 @@ public class MoreAchievementGrid {
 
     public MoreAchievementGrid() {
         MoreAchievementItem.atlas = new TextureAtlas(Gdx.files.internal("moreachievements/images/achievements/MoreAchievements.atlas"));
-        loadAchievement("SHELL_SHOCK", false);
-        loadAchievement("CLASS_DISMISSED", false);
-        loadAchievement("OVERTHROWN", false);
-        loadAchievement("ROLE_REVERSAL", false);
-        loadAchievement("ENCORE", false);
-        loadAchievement("MERCY", false);
-        loadAchievement("COLLECTIONIST", false);
-        loadAchievement("BURDENS", false);
-        loadAchievement("NEW_PERSPECTIVES", false);
-        loadAchievement("BLOODTHIRSTY", false);
-        loadAchievement("SHOWOFF", false);
-        loadAchievement("LIVING_ON_THE_EDGE", false);
-        loadAchievement("SATED", false);
-        loadAchievement("POWERLESS", false);
-        loadAchievement("WORKAROUND", false);
-        loadAchievement("PROTEST", false);
-        loadAchievement("ENERGETIC", false);
-        loadAchievement("NEGATIVE_SYNERGY", false);
-        loadAchievement("BLOOMED", false);
-        loadAchievement("WRATHFUL", false);
-        loadAchievement("ANGER_MANAGEMENT", false);
-        loadAchievement("KEYMASTER", false);
-        loadAchievement("THE_SPIRE_SLEEPS", false);
+        loadAchievement("SHELL_SHOCK");
+        loadAchievement("CLASS_DISMISSED");
+        loadAchievement("OVERTHROWN");
+        loadAchievement("ROLE_REVERSAL");
+        loadAchievement("UNDIVIDED");
+        loadAchievement("ENCORE");
+        loadAchievement("MERCY");
+        loadAchievement("COLLECTIONIST");
+        loadAchievement("BURDENS");
+        loadAchievement("NEW_PERSPECTIVES");
+        loadAchievement("BLOODTHIRSTY");
+        loadAchievement("SHOWOFF");
+        loadAchievement("LIVING_ON_THE_EDGE");
+        loadAchievement("SATED");
+        loadAchievement("POWERLESS");
+        loadAchievement("WORKAROUND");
+        loadAchievement("PROTEST");
+        loadAchievement("ENERGETIC");
+        loadAchievement("NEGATIVE_SYNERGY");
+        loadAchievement("BLOOMED");
+        loadAchievement("ONE_FOR_ALL");
+        loadAchievement("WRATHFUL");
+        loadAchievement("ANGER_MANAGEMENT");
+        loadAchievement("KEYMASTER");
+        loadAchievement("THE_SPIRE_SLEEPS");
     }
 
-    private void loadAchievement(String id, boolean isHidden) {
+    private void loadAchievement(String id) {
         String fullId = MoreAchievements.makeID(id);
         UIStrings uiStrings = CardCrawlGame.languagePack.getUIString(fullId);
         String name = uiStrings.TEXT[0];
         String description = uiStrings.TEXT[1];
         TextureAtlas.AtlasRegion AchievementImageUnlocked = MoreAchievementItem.atlas.findRegion("unlocked/" + id);
         TextureAtlas.AtlasRegion AchievementImageLocked = MoreAchievementItem.atlas.findRegion("locked/" + id);
-        items.add(new MoreAchievementItem(name, description, fullId, isHidden, AchievementImageUnlocked, AchievementImageLocked));
+        items.add(new MoreAchievementItem(name, description, fullId, AchievementImageUnlocked, AchievementImageLocked));
     }
 
     public void updateAchievementStatus() {

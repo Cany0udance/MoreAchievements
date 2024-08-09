@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.relics.MarkOfTheBloom;
 import com.megacrit.cardcrawl.relics.RunicPyramid;
 import com.megacrit.cardcrawl.relics.SneckoEye;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import moreachievements.achievements.MoreAchievementGrid;
 import moreachievements.util.*;
 import com.badlogic.gdx.Files;
 import com.badlogic.gdx.Gdx;
@@ -49,6 +50,7 @@ public class MoreAchievements implements
     static { loadModInfo(); }
     private static final String resourcesFolder = checkResourcesPath();
     public static final Logger logger = LogManager.getLogger(modID); //Used to output to the console.
+    public static MoreAchievementGrid moreAchievementGrid;
 
     //This is used to prefix the IDs of various objects like cards and relics,
     //to avoid conflicts between different mods using the same name for things.
@@ -77,6 +79,7 @@ public class MoreAchievements implements
         //The Mod Badges page has a basic example of this, but setting up config is overall a bit complex.
         BaseMod.registerModBadge(badgeTexture, info.Name, GeneralUtils.arrToString(info.Authors), info.Description, null);
         initializeSaveFields();
+        moreAchievementGrid = new MoreAchievementGrid();
     }
 
     @Override
@@ -94,14 +97,6 @@ public class MoreAchievements implements
     @Override
     public void receiveOnPlayerTurnStart() {
         MoreAchievementVariables.grandFinalePlays = 0;
-        BaseMod.logger.info("Elites defeated: " + MoreAchievementVariables.elitesDefeated);
-        BaseMod.logger.info("Burning elites defeated: " + MoreAchievementVariables.burningElitesDefeated);
-        BaseMod.logger.info("Grand Finale plays: " + MoreAchievementVariables.grandFinalePlays);
-        BaseMod.logger.info("Exordium keys obtained: " + MoreAchievementVariables.exordiumKeys);
-        BaseMod.logger.info("Entered Calm: " + MoreAchievementVariables.calmEntered);
-        BaseMod.logger.info("Entered Calm in final form: " + MoreAchievementVariables.calmEnteredFinal);
-        BaseMod.logger.info("Entered Wrath: " + MoreAchievementVariables.wrathEntered);
-        BaseMod.logger.info("Entered Wrath in final form: " + MoreAchievementVariables.wrathEnteredFinal);
     }
 
     @Override

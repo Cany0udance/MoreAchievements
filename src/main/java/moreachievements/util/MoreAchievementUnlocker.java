@@ -12,7 +12,6 @@ public class MoreAchievementUnlocker {
         if (!Settings.isShowBuild && Settings.isStandardRun()) {
             if (!achievementPref.getBoolean(fullKey, false)) {
                 achievementPref.putBoolean(fullKey, true);
-                BaseMod.logger.info("achievement unlocked:" + fullKey);
             }
 
             achievementPref.flush();
